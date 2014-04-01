@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+
+  <!-- The JNLP version this file is compatible with -->
+  spec="1.0+"
+
+  <!-- The codebase of the application.  Each relative
+       URL in this file is relative to this URL -->
+  codebase="http://192.168.0.1/jaws/PicoDraw/"
+
+  <!-- The relative URL of this file -->
+  href="PicoDraw.jnlp">
+
+  <information>
+
+    <!-- The title of the application -->
+    <title>PicoDraw</title>
+
+    <!-- The vendor of the application -->
+    <vendor>Manning Publications</vendor>
+
+    <!-- A web page containing more information about the
+         application.  This URL will be displayed in
+         the JAWS Application Manager -->
+    <homepage href="http://www.manning.com/"/>
+
+
+    <!-- Description elements are displayed in various places
+         in the Application Manager -->
+    <description>PicoDraw</description>
+    <description kind="short">
+      A *very* tiny draw program</description>
+
+    <!-- A URL pointing at a GIF or JPG icon file -->
+    <icon href="images/picodraw.jpg"/>
+
+    <!-- Declares that the application can run without
+         access to the server it was downloaded from -->
+    <offline-allowed/>
+
+  </information>
+
+  <security>
+      <!-- Request that the application be given full
+           access to the local (executing) machine,
+           as if it were a regular Java application.
+           Requires that all JAR files be signed
+           by a trusted party -->
+      <all-permissions/>
+
+  </security>
+
+  <resources>
+
+    <!-- Specify the versions of the Java Runtime Environment
+         (JRE) that are supported by the application.
+         Multiple entries of this kind are allowed, in which
+         case they are considered to be in order of preference -->
+    <j2se version="1.4"/>
+
+    <!-- Specify the relative URL of a JAR file containing
+         code or data.  Specifying lazy tells the JAWS system
+         that the file does not need to be downloaded before
+         the application can be run -->
+    <jar href="lib/classes.jar"/>
+    <jar href="lib/backgrounds.jar" download="lazy"/>
+
+  </resources>
+
+  <application-desc main-class="PicoDraw"/>
+</jnlp>

@@ -1,0 +1,5 @@
+- setName horace
+- moveTo 10 10
+- moveTo 20 20
+- setBounds 10 10 50 50
+- moveTo 10 10

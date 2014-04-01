@@ -1,0 +1,4 @@
+bg0.gif
+bg1.gif
+bg2.gif
+bg3.gif

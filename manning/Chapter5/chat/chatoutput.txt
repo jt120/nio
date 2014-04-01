@@ -1,0 +1,50 @@
+Jan 3, 2002 4:30:50 PM org.jdk14tut.chat.MultiplexingChatServer ....
+CONFIG: Will listen on port 5555
+Jan 3, 2002 4:30:50 PM org.jdk14tut.chat.MultiplexingChatServer ....
+FINE: Started background I/O thread
+Jan 3, 2002 4:30:50 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINE: Background thread started
+Jan 3, 2002 4:30:50 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Opened server socket channel
+Jan 3, 2002 4:30:50 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: server socket channel bound to 0.0.0.0/0.0.0.0:5555
+Jan 3, 2002 4:30:50 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Registered sun.nio.ch.ServerSocketChannelImpl[/0.0.0.0:50....
+Jan 3, 2002 4:30:50 PM org.jdk14tut.chat.MultiplexingChatServer run
+INFO: Listening on port 5555
+Jan 3, 2002 4:30:50 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Allocated buffer, capacity=4096
+Jan 3, 2002 4:30:50 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Going into select()
+Jan 3, 2002 4:31:37 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Returned from select()
+Jan 3, 2002 4:31:37 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: select() returned with 1 keys in selected set
+Jan 3, 2002 4:31:37 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Selection key: sun.nio.ch.SelectionKeyImpl@72e449
+Jan 3, 2002 4:31:37 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Selection key is ACCEPT type
+Jan 3, 2002 4:31:37 PM org.jdk14tut.chat.MultiplexingChatServer run
+INFO: Connection from Socket[addr=/192.168.0.2,port=3795,localpo....
+Jan 3, 2002 4:31:37 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Registered java.nio.channels.SocketChannel[connected loca....
+Jan 3, 2002 4:31:37 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Going into select()
+Jan 3, 2002 4:31:40 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Returned from select()
+Jan 3, 2002 4:31:40 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: select() returned with 1 keys in selected set
+Jan 3, 2002 4:31:40 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Selection key: sun.nio.ch.SelectionKeyImpl@1d332b
+Jan 3, 2002 4:31:40 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Selection key is READ type
+Jan 3, 2002 4:31:40 PM org.jdk14tut.chat.MultiplexingChatServer run
+FINER: Read 4 bytes from Socket[addr=/192.168.0.2,port=3795,loca....
+Jan 3, 2002 4:31:40 PM org.jdk14tut.chat.MultiplexingChatServer ....
+FINER: Sending buffer, 4 bytes
+Jan 3, 2002 4:31:40 PM org.jdk14tut.chat.MultiplexingChatServer ....
+FINE: Sending to Socket[addr=/192.168.0.2,port=3795,localport=5555]
+Jan 3, 2002 4:31:40 PM org.jdk14tut.chat.MultiplexingChatServer ....
+FINER: Starting write to Socket[addr=/192.168.0.2,port=3795,loca....
+Jan 3, 2002 4:31:40 PM org.jdk14tut.chat.MultiplexingChatServer ....
+FINER: Finished write to Socket[addr=/192.168.0.2,port=3795,loca....

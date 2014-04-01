@@ -1,0 +1,5 @@
+setname horace
+moveto 10 10
+moveto 20 20
+setbounds 10 10 50 50
+moveto 10 10

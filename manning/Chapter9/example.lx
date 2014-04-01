@@ -1,0 +1,11 @@
+whitespace   \s+
+whitespace   (^$)
+ident        [a-zA-Z][a-zA-Z0-9]+
+lparen       \(
+rparen       \)
+lcbrace      \{
+rcbrace      \}
+semicolon    ;
+comma        ,
+period       \.
+equals       =
