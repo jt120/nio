@@ -12,12 +12,12 @@ public class TabDelimited
 
     // We'll store the data in a vector of arrays
     Vector vec = new Vector();
-
+    //use \t to split words and not include \t
     Pattern pattern = Pattern.compile( "(?<!\\\\)\\t" );
 
     while (true) {
       String line = br.readLine();
-      if (line==null)
+      if (line==null||"".equals(line))
         break;
 
       String words[] = pattern.split( line );

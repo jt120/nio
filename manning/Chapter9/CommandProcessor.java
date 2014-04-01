@@ -19,7 +19,7 @@ public class CommandProcessor
       String line = br.readLine();
       if (line==null)
         break;
-
+      //use space to split words
       String words[] = pattern.split( line );
 
       if (words[0].equals( "moveto" )) {
